@@ -1,7 +1,7 @@
 <html>
 <Head>
-<h2>Hello World CICDAGAIN</h2>
-<title>Jolly K Joy - DEv...DevTestOps Engineer.</title>
+<h2>Hello World CICDAGAINTest</h2>
+<title>Jolly Joy DevTestOps Engineer.</title>
 <style>
     /* CSS styles go here */
     body, h1, h2, ul, p {
