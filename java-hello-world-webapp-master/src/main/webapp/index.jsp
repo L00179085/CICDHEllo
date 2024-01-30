@@ -1,7 +1,7 @@
 <html>
 <Head>
 <h2>Hello World CICD DevSecTestOps</h2>
-<title>Jolly Joy DevSecTestOps Engineer</title>
+<title>Jolly Joy DevSecTestOps</title>
 <style>
     /* CSS styles go here */
     body, h1, h2, ul, p {
@@ -126,8 +126,8 @@
 <body>
 
     <header>
-        <h1>Jolly Joy</h1>
-        <h2>DevTestOps Engineer</h2>
+        <h1>Jolly K Joy</h1>
+        <h2>DevSecTestOps Engineer</h2>
     </header>
 
     <nav>
@@ -183,7 +183,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2023 Jolly Joy</p>
+        <p>&copy; 2024 Jolly Joy</p>
     </footer>
 
 </body>
