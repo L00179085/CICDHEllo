@@ -27,7 +27,7 @@
   </dependencies>
   
   <build>
-      <finalName>java-hello-world</finalName>
+      <finalName>jav+a-hello-world</finalName>
       <pluginManagement>
            <plugins>
             <plugin>
