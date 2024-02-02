@@ -34,7 +34,17 @@
       <finalName>jav+a-hello-world</finalName>
       <pluginManagement>
            <plugins>
+           
             <plugin>
+              <groupId>org.owasp</groupId>
+              <artifactId>dependency-check-maven</artifactId>
+              <version>9.0.9</version>
+              <configuration>
+              <!-- Configuration options for Dependency-Check -->
+              </configuration>
+            </plugin>
+
+            <!--<plugin>
                 <groupId>org.cyclonedx</groupId>
                 <artifactId>cyclonedx-maven-plugin</artifactId>
                 <executions>
@@ -45,8 +55,26 @@
                           </goals>
                       </execution>
                 </executions>
+            </plugin> !-->
+
+            
+          <plugin>
+               <groupId>org.cyclonedx</groupId>
+               <artifactId>cyclonedx-maven-plugin</artifactId>
+               <version>2.7.9</version>
+                <executions>
+                  <execution>
+                   <goals>
+                      <goal>makeAggregateBom</goal>
+                    </goals>
+                  </execution>
+                </executions>
+                <configuration>
+                 <!-- Configuration options for CycloneDX -->
+                </configuration>
             </plugin>
-          </plugins>
+</plugins>
+  
       </pluginManagement> 
     </build>
 </project>
